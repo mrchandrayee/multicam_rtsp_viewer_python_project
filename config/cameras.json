@@ -1,0 +1,77 @@
+{
+  "grid_cols": 2,
+  "reconnect_delay": 3,
+  "output_dir": "recordings",
+  "recording_enabled": true,
+  "schedule": {
+    "enabled": false,
+    "timezone": "Asia/Kolkata",
+    "days": {
+      "monday": [
+        {
+          "start": "09:00",
+          "end": "18:00"
+        }
+      ],
+      "tuesday": [
+        {
+          "start": "09:00",
+          "end": "18:00"
+        }
+      ],
+      "wednesday": [
+        {
+          "start": "09:00",
+          "end": "18:00"
+        }
+      ],
+      "thursday": [
+        {
+          "start": "09:00",
+          "end": "18:00"
+        }
+      ],
+      "friday": [
+        {
+          "start": "09:00",
+          "end": "18:00"
+        }
+      ],
+      "saturday": [
+        {
+          "start": "09:00",
+          "end": "13:00"
+        }
+      ],
+      "sunday": []
+    }
+  },
+  "status_api_url": "",
+  "status_api_key": "",
+  "cameras": [
+    {
+      "name": "camera_1",
+      "url": "rtsp://username:password@192.168.1.101:554/stream1",
+      "enabled": true,
+      "fps": 20
+    },
+    {
+      "name": "camera_2",
+      "url": "rtsp://username:password@192.168.1.102:554/stream1",
+      "enabled": true,
+      "fps": 20
+    },
+    {
+      "name": "camera_3",
+      "url": "rtsp://username:password@192.168.1.103:554/stream1",
+      "enabled": true,
+      "fps": 20
+    },
+    {
+      "name": "camera_4",
+      "url": "rtsp://username:password@192.168.1.104:554/stream1",
+      "enabled": true,
+      "fps": 20
+    }
+  ]
+}
